@@ -1,0 +1,16 @@
+{
+  "name": "typescript-over-lib-inclusion-issue",
+  "version": "1.0.0",
+  "description": "An example of how typescript will pull in new libs automatically even if it is not desired",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "greyepoxy",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/enzyme": "^3.10.8",
+    "typescript": "^4.1.5"
+  }
+}
